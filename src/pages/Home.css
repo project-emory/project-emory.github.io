@@ -11,7 +11,7 @@
     content: "";
     background-color: var(--fg-dark);
     position: absolute;
-    
+
     /* set background to span entire page width */
     top: calc(- var(--padding-main));
     left: calc(50% - 50vw);
@@ -21,14 +21,31 @@
     height: calc(100% + var(--padding-main));
 }
 
+/* cool rotated corner thingy */
+.hero::after {
+    content: "";
+    background-color: red;
+    position: absolute;
+
+    --width: 50vw;
+
+    border-bottom-right-radius: 15rem;
+    top: calc(-2 * var(--padding-main));
+    left: calc(50% - 50vw);
+    width: 48vw;
+    height: calc(90% + var(--padding-main));
+}
+
 .hero-element-l {
     text-align: center;
-    flex-basis: 50%;
+    width: 50%;
     flex-shrink: 0;
 }
 
 .hero-element-r {
+    box-sizing: border-box;
+    padding-left: 5rem;
     text-align: start;
-    flex-basis: 50%;
+    width: 50%;
     flex-shrink: 0;
 }

@@ -30,7 +30,6 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    box-sizing: border-box;
     background-color: var(--bg-base);
     color: var(--text-primary);
     border: none;

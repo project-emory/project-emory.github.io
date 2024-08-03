@@ -8,10 +8,10 @@ export default function Home() {
         <>
             <div className="hero">
                 <div className="hero-element-l">
-                    <h1>Project Emory</h1>
+                    <h1>LOGO</h1>
                 </div>
                 <div className="hero-element-r">
-                    <p>How are you doing today?</p>
+                    <h1>Project Emory</h1>
                     <p>
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam, possimus.
                         Eos ipsa labore nihil blanditiis asperiores aspernatur autem ut esse atque
