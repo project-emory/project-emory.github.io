@@ -1,0 +1,36 @@
+.hero {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 75vh;
+}
+
+.hero::before {
+    content: "";
+    background-color: var(--fg-dark);
+    position: absolute;
+
+    /* set background to span entire page width */
+    top: calc(- var(--padding-main));
+    left: calc(50% - 50vw);
+    right: 0;
+    bottom: 0;
+    width: 100vw;
+    height: calc(100% + var(--padding-main));
+}
+
+.hero-element-l {
+    text-align: center;
+    width: 50%;
+    flex-shrink: 0;
+}
+
+.hero-element-r {
+    box-sizing: border-box;
+    padding-left: 5rem;
+    text-align: start;
+    width: 50%;
+    flex-shrink: 0;
+}
