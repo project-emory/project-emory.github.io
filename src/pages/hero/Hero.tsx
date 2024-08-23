@@ -1,10 +1,16 @@
 import "./Hero.css";
+import { Logo } from "components/Logo";
 
 export default function Hero() {
     return (
         <div className="hero">
             <div className="hero-element-l">
-                <img src="/project-emory-bg.svg" alt="Project Emory" />
+                {/* this is incredibly goofy & jank but works for now */}
+                <Logo
+                    background="var(--pe-bg)"
+                    longArcColor="var(--pe-blue)"
+                    shortArcColor="var(--pe-yellow)"
+                />
             </div>
             <div className="hero-element-r">
                 <h1>Project Emory</h1>

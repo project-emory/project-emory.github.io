@@ -21,6 +21,10 @@ body {
     --accent-yellow: #fabd2f;
     --accent-dark-yellow: #b57614;
 
+    --pe-blue: #00379f;
+    --pe-yellow: #f1a709;
+    --pe-bg: #ffffff;
+
     /* Other shared styles to stay DRY */
     --padding-main: 4rem;
 
