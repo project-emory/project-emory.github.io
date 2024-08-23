@@ -22,7 +22,9 @@ body {
     --accent-dark-yellow: #b57614;
 
     --pe-blue: #00379f;
+    --pe-blue-muted: #4271c9;
     --pe-yellow: #f1a709;
+    --pe-yellow-muted: #e8bb5a;
     --pe-bg: #ffffff;
 
     /* Other shared styles to stay DRY */
