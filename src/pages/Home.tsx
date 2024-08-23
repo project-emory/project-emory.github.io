@@ -1,8 +1,8 @@
 import "./Home.css";
-import Hero from "./Hero";
-import AboutUs from "./AboutUs";
-import Upcoming from "./Upcoming";
-import Contact from "./Contact";
+import Hero from "./hero/Hero";
+import AboutUs from "./about-us/AboutUs";
+import Upcoming from "./upcoming/Upcoming";
+import Contact from "./contact/Contact";
 
 export default function Home() {
     return (
