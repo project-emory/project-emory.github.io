@@ -1,4 +1,5 @@
 <script lang="ts">
+    import Logo from "$lib/components/Logo.svelte";
 </script>
 
 <!-- @component
@@ -11,6 +12,7 @@ Test component section for displaying elements while building.
         repellendus deleniti velit illo commodi voluptates, magni provident porro enim ea facere
         veniam possimus quo harum fuga aliquam vero cum?
     </div>
+    <Logo background="#FFFFFF" shortArc="#f1a709" longArc="#00379f" />
 </section>
 
 <style>

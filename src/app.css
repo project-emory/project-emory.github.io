@@ -16,7 +16,7 @@ section {
     padding: 1rem 0;
 }
 
-section > div {
+section > * {
     max-width: 1280px;
     padding: 0 1rem;
 }
