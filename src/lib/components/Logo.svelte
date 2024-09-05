@@ -8,6 +8,7 @@
     /** The color of the short arc in the logo; should be a valid CSS color string. */
     export let longArc: string;
 
+    // this is kinda janky, maybe eventually this can go into the <style/> block instead?
     const common: string =
         'stroke: "round"; stroke-linecap: "round"; stroke-miter-limit: 1; paint-order: "fill"; stroke-width: "0px"; stroke-opacity: 0; fill-rule: "nonzero";';
 </script>
@@ -41,6 +42,6 @@ An SVG of the Project Emory logo with swappable colors & optional background.
 
 <style>
     svg {
-        width: 100%;
+        height: 100%;
     }
 </style>

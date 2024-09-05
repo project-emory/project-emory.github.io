@@ -1,5 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
 body {
     margin: 0;
+
+    --bg-primary: #f8f9fa;
+    --fg-primary: #e9ecef;
+    --text-primary: #495057;
+
+    --bg-secondary: #dee2e6;
+    --fg-secondary: #ced4da;
+    --text-secondary: #212529;
+
+    --pe-blue: #00379f;
+    --pe-blue-muted: #4271c9;
+    --pe-yellow: #f1a709;
+    --pe-yellow-muted: #e8bb5a;
+    --pe-bg: #ffffff;
+
+    --radius-primary: 5px;
+
+    font-family: Inter, Arial, sans-serif;
 }
 
 /* section styling */
@@ -13,10 +33,10 @@ section {
     align-items: center;
     justify-content: center;
     gap: 2rem;
-    padding: 1rem 0;
+    padding: 2rem 0;
 }
 
 section > * {
-    max-width: 1280px;
-    padding: 0 1rem;
+    max-width: 1024px;
+    width: 100%;
 }

@@ -5,7 +5,7 @@
 <!-- @component
 Test component section for displaying elements while building.
  -->
-<section>
+<section id="test">
     <div class="content">jeff</div>
     <div>
         bob Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum consectetur
