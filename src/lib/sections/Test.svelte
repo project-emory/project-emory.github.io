@@ -28,7 +28,7 @@ Test component section for displaying elements while building.
         padding-left: 10px;
         margin-bottom: 5rem;
         margin-top: 3rem;
-        max-height: 400px;
+        max-height: 400;
     }
     p {
         font-weight: 700;
