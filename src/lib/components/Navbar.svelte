@@ -5,7 +5,7 @@
 <!-- @component
 A simple navbar component to provide easy jumping between sections on the page.
  -->
-<section>
+<section style="padding-top: 15px">
     <nav>
         <ul>
             <li class="logo">
@@ -34,14 +34,15 @@ A simple navbar component to provide easy jumping between sections on the page.
 <style>
     ul {
         background-color: white;
-        border-radius: 5px;
         list-style-type: none;
+        border-color: #00379f;
+        border-bottom: solid;
 
         display: flex;
         justify-content: space-between;
         align-items: center;
         width: 100%;
-        padding: 0.5rem 1rem;
+        padding: 0rem 1rem 0.5rem 1rem;
     }
 
     .logo {
