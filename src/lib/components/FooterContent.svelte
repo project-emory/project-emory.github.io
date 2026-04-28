@@ -5,8 +5,8 @@
 
 <div class="text-emph">building @ emory since 2023</div>
 <IconPoint size={16} />
-<div class="text-emph flex flex-row items-center gap-2">
-    site built in
+<div class="text-emph flex flex-row items-center gap-1">
+    site built w/
     <a href="https://svelte.dev/" target="_blank" rel="noreferrer">
         <IconBrandSvelte size={20} />
     </a>
