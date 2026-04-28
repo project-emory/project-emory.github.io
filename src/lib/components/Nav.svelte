@@ -47,9 +47,9 @@
         <li>
             <a
                 class="text-emph"
-                href="/projects"
+                href="/showcase"
                 onclick={closeMenu}
-                class:menu-active={page.url.pathname.includes("/projects")}>projects</a
+                class:menu-active={page.url.pathname.includes("/showcase")}>showcase</a
             >
         </li>
         <li>
