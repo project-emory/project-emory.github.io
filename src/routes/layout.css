@@ -1,3 +1,10 @@
 @import "tailwindcss";
 @plugin "daisyui/index.js";
 @plugin "@tailwindcss/typography";
+
+@layer components {
+    .text-emph {
+        font-weight: var(--font-weight-semibold);
+        text-transform: uppercase;
+    }
+}
