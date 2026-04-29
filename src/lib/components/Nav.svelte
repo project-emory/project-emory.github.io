@@ -49,7 +49,7 @@
                 class="text-emph"
                 href="/showcase"
                 onclick={closeMenu}
-                class:menu-active={page.url.pathname.includes("/showcase")}>showcase</a
+                class:menu-active={page.url.pathname === "/showcase"}>showcase</a
             >
         </li>
         <li>
@@ -57,7 +57,7 @@
                 class="text-emph"
                 href="/about"
                 onclick={closeMenu}
-                class:menu-active={page.url.pathname.includes("/about")}>what we do</a
+                class:menu-active={page.url.pathname === "/about"}>what we do</a
             >
         </li>
         <li>
@@ -65,7 +65,7 @@
                 class="text-emph"
                 href="/contact"
                 onclick={closeMenu}
-                class:menu-active={page.url.pathname.includes("/contact")}>contact</a
+                class:menu-active={page.url.pathname === "/contact"}>contact</a
             >
         </li>
     </ul>
