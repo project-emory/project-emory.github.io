@@ -15,9 +15,9 @@
 </script>
 
 <div class="navbar relative bg-base-100 px-4 shadow-sm">
-    <div class="flex-1">
+    <a class="flex-1" href="/">
         <Logo size={36} />
-    </div>
+    </a>
 
     <button
         class="btn btn-square btn-ghost lg:hidden"

@@ -1,8 +1,15 @@
+import test from "$lib/assets/logo.svg";
+import test1 from "$lib/assets/logo-w-text.svg";
+
 export type ShowcaseEntry = {
     slug: string;
     name: string;
     description: string;
     images: string[];
+    links?: {
+        label: string;
+        href: string;
+    }[];
 };
 
 export const projects: ShowcaseEntry[] = [
@@ -10,7 +17,17 @@ export const projects: ShowcaseEntry[] = [
         slug: "odyssey",
         name: "Odyssey",
         description: "Internal HR Employee management hub for Odyssey Family Counseling.",
-        images: []
+        images: [test, test1],
+        links: [
+            {
+                label: "Odyssey Family Counseling",
+                href: "https://odysseycounseling.org/"
+            },
+            {
+                label: "GitHub",
+                href: "https://github.com/project-emory/Odyssey"
+            }
+        ]
     }
 ];
 
@@ -19,19 +36,22 @@ export const events: ShowcaseEntry[] = [
         slug: "emory-hacks-2025",
         name: "Emory Hacks '25",
         description: "Second Annual CS Hackathon hosted by PROJECT Emory.",
-        images: []
+        images: [],
+        links: []
     },
     {
         slug: "aws-genai-25",
         name: "AWS GenAI Event",
         description: "GenAI innovation event in collaboration with AWS.",
-        images: []
+        images: [],
+        links: []
     },
     {
         slug: "emory-hacks-2024",
         name: "Emory Hacks '24",
         description: "First Annual CS Hackathon hosted by PROJECT Emory.",
-        images: []
+        images: [],
+        links: []
     }
 ];
 
