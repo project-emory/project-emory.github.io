@@ -32,8 +32,8 @@
             transform: translateX(0%);
         }
         to {
-            /* this works lol */
-            transform: translateX(-104%);
+            /* this works lol, 100% + gap * 2 */
+            transform: translateX(calc(-100% - var(--spacing) * 4));
         }
     }
 
