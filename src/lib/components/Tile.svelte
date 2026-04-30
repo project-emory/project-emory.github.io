@@ -1,18 +1,14 @@
 <script lang="ts">
-    import { goto } from "$app/navigation";
+    import { resolve } from "$app/paths";
 
-    let {
-        id,
-        img,
-        title,
-        link
-    }: { id?: string; img: string; title: string; link: string } = $props();
+    let { id, img, title, link }: { id?: string; img: string; title: string; link: string } =
+        $props();
 </script>
 
-<button
+<a
     {id}
     class="card carousel-item h-80 max-w-full overflow-y-clip border-base-300 card-border hover:cursor-pointer"
-    onclick={() => goto(`/showcase/${link}`)}
+    href={resolve(`/showcase/${link}`)}
 >
     <figure class="">
         <img src={img} alt={title} />
@@ -22,4 +18,4 @@
             {title}
         </div>
     </div>
-</button>
+</a>

@@ -5,3 +5,6 @@ yarn.lock
 
 # Agent Skills
 /.agents
+
+# Workflows
+/.github
