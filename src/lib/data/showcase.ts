@@ -16,7 +16,9 @@ export const projects: ShowcaseEntry[] = [
     {
         slug: "odyssey",
         name: "Odyssey",
-        description: "Internal HR Employee management hub for Odyssey Family Counseling.",
+        description:
+            "Internal HR Employee management hub for Odyssey Family Counseling.\n\n\
+            Worked on over the course of two semesters on a student software team of one project manager and five that handled everything from task creation to implementation.",
         images: [test, test1],
         links: [
             {

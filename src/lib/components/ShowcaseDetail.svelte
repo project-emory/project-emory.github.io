@@ -19,8 +19,8 @@
 
     const handleCarouselClick = (move: number) => {
         let r = img + move;
-        if (r < 0) r === 0;
-        else if (r >= entry.images.length) r === entry.images.length - 1;
+        if (r < 0) r = 0;
+        else if (r >= entry.images.length) r = entry.images.length - 1;
         img = r;
         goto(`#img-${img}`);
     };
