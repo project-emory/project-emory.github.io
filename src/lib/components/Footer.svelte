@@ -2,7 +2,7 @@
     import FooterContent from "./FooterContent.svelte";
 </script>
 
-<div class="toast toast-start toast-bottom cursor-default">
+<div class="toast toast-start toast-bottom z-50 cursor-default">
     <div class="hidden flex-row items-center gap-2 md:flex">
         <div class="flex flex-row items-center gap-2 overflow-hidden">
             <FooterContent />

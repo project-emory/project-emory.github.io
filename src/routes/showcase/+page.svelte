@@ -31,7 +31,7 @@ carousel is full and the other is not, but shadow will not show since overflow
 is hidden
 -->
 
-<div class="flex flex-col gap-4">
+<div class="flex flex-col gap-16">
     <div class="flex flex-row gap-4">
         <div class="flex flex-col items-center gap-2">
             <div class="text-title pb-2 [writing-mode:vertical-rl]">projects</div>

@@ -8,7 +8,7 @@
     } from "@tabler/icons-svelte";
 </script>
 
-<div class="grid grid-cols-1 gap-4 md:mr-40 md:grid-cols-[minmax(0,1fr)_minmax(0,2fr)]">
+<div class="grid grid-cols-1 gap-4 xl:mr-40 xl:grid-cols-[minmax(0,1fr)_minmax(0,2fr)]">
     <section class="card">
         <div class="card-body flex flex-col justify-between gap-40">
             <h1 class="text-title">contact us</h1>

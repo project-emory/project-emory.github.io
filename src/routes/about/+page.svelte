@@ -16,7 +16,7 @@
     let activeBoardMember = $derived(execMembers[boardIdx]);
 </script>
 
-<div class="grid grid-cols-1 gap-4 md:mr-40 md:grid-cols-[minmax(0,1fr)_minmax(0,2fr)]">
+<div class="grid grid-cols-1 gap-4 xl:mr-40 xl:mb-20 xl:grid-cols-[minmax(0,1fr)_minmax(0,2fr)]">
     <section class="card">
         <div class="card-body flex flex-col justify-between gap-40">
             <div class="space-y-2">
@@ -97,9 +97,9 @@
                 </ol>
                 <p>
                     And that's not it -- we're continuing our efforts even now! Head to our
-                    <a href={resolve("/contact")} class="link text-primary">contact page</a> to see
-                    how you can get involved as a student, sponsor us as an
-                    individual/organization, or collaborate with us on a project/event!
+                    <a href={resolve("/contact")} class="link text-primary">contact page</a> to see how
+                    you can get involved as a student, sponsor us as an individual/organization, or collaborate
+                    with us on a project/event!
                 </p>
             </div>
         </div>
