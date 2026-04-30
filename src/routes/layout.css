@@ -1,0 +1,37 @@
+@import "tailwindcss";
+@plugin "daisyui/index.js";
+@plugin "@tailwindcss/typography";
+
+@layer components {
+    .text-emph {
+        font-weight: var(--font-weight-semibold);
+        text-transform: uppercase;
+    }
+
+    .text-title {
+        font-weight: var(--font-weight-bold);
+        text-transform: uppercase;
+        font-size: var(--text-xl);
+
+        /* basically md:text-4xl */
+        @media (width >= 48rem /* 768px */) {
+            font-size: var(--text-4xl) /* 2.25rem = 36px */;
+            line-height: var(
+                --tw-leading,
+                var(--text-4xl--line-height) /* calc(2.5 / 2.25) ≈ 1.111111 */
+            );
+        }
+    }
+
+    .text-subtitle {
+        font-weight: var(--font-weight-medium);
+        font-size: var(--text-lg) !important;
+        text-transform: uppercase;
+
+        /* basically md:text-3xl w/ modified line height */
+        @media (width >= 48rem /* 768px */) {
+            font-size: var(--text-3xl) /* 1.875rem = 30px */ !important;
+            line-height: 1.5rem !important;
+        }
+    }
+}
