@@ -2,6 +2,7 @@
     import Logo from "./Logo.svelte";
     import { page } from "$app/state";
     import { IconMenu2, IconX } from "@tabler/icons-svelte";
+    import { resolve } from "$app/paths";
 
     let isOpen = $state(false);
 
@@ -47,7 +48,7 @@
         <li>
             <a
                 class="text-emph"
-                href="/showcase"
+                href={resolve("/showcase")}
                 onclick={closeMenu}
                 class:menu-active={page.url.pathname === "/showcase"}>showcase</a
             >
@@ -55,7 +56,7 @@
         <li>
             <a
                 class="text-emph"
-                href="/about"
+                href={resolve("/about")}
                 onclick={closeMenu}
                 class:menu-active={page.url.pathname === "/about"}>what we do</a
             >
@@ -63,7 +64,7 @@
         <li>
             <a
                 class="text-emph"
-                href="/contact"
+                href={resolve("/contact")}
                 onclick={closeMenu}
                 class:menu-active={page.url.pathname === "/contact"}>contact</a
             >
